@@ -1,0 +1,13 @@
+.btn-secondary {
+    border: 2px solid #3A3A3A;
+    background-color: #fff;
+    height: 44px;
+    width: 148px;
+    border-radius: 10px;
+    font-size: 20px;
+    margin-left: 12px;
+    cursor: pointer;
+}
+.nav-item {
+    cursor: pointer;
+}

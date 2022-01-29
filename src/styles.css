@@ -1,0 +1,29 @@
+/* You can add global styles to this file, and also import other style files */
+body, html {
+    color: #3A3A3A;
+}
+.background {
+    position: absolute; 
+    height: 99%; 
+    width: 99%; 
+    background: linear-gradient(#83eaf1, #63a4ff);
+}
+
+.btn-primary {
+    background-color: #EE5684;
+    color: #fff;
+    height: 44px;
+    width: 314px;
+    border-radius: 10px;
+    font-size: 20px;
+    border: none;
+    box-shadow: 2px 2px 5px grey;
+    cursor: pointer;
+}
+.invalid-feedback, .is-invalid {
+    color: red;
+}
+.form-group {
+    padding: 15px 0;
+}
+

@@ -1,0 +1,36 @@
+<div class="background">
+    <div class="home-content">
+        <h2>WELCOME TO "TECH ENTHUSIAST & SOFTWARE ENGINEERING GROUP"</h2>
+        <!--property binding example-->
+        <!--Two way data binding-->
+        <div style="display: flex;flex-direction: row; justify-content: space-evenly">
+            <div>
+                <div class="form-group">
+                    <label for="firstName">First Name</label>
+                    <input type="text" [(ngModel)] = "firstName" class="form-control" (keyup)="inputKeyUp('name')" />
+                </div>
+                <div class="form-group">
+                    <label for="lastName">Last Name</label>
+                    <input type="text" [(ngModel)] = "lastName" class="form-control" (keyup)="inputKeyUp('name')"/>
+                </div>
+                <div class="form-group">
+                    <button [disabled]="updateBtnDisable" class="btn-primary" [ngClass]="{ 'btn-opacity' : updateBtnDisable }" (click) = "updateName()">
+                        UPDATE
+                    </button>                
+                </div>
+            </div>
+            <div>
+                <div class="form-group">
+                    <label for="firstName">Enter Nepali Rupees</label>
+                    <input type="number" [(ngModel)] ="nepaliRupees" class="form-control"  (keyup)="inputKeyUp('currency')"/>
+                </div>
+                <!--pipes example-->
+                <div class="form-group">
+                    <span style="font-size: 20px; font-weight:500;">Equivalent US Dollar:</span><label class="lbl-currency">{{usDollar | currency:"USD"}}</label>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+</div>

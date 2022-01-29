@@ -1,0 +1,39 @@
+.register-content {
+    /* Center vertically and horizontally */
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    /*margin: -25px 0 0 -25px; /* Apply negative top and left margins to truly center the element */
+    background-color: #fff;
+    padding: 15px 40px 40px 20px;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+
+  label {
+    display: block;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+input {
+    height: 30px;
+    width: 300px;
+    border-radius: 5px;
+    background-color: #fff !important;
+    padding: 5px;
+}
+
+.btn-primary {
+    width: 148px;
+}
+.btn-secondary {
+    border: 2px solid #3A3A3A;
+    background-color: #fff;
+    height: 44px;
+    width: 148px;
+    border-radius: 10px;
+    font-size: 20px;
+    margin-left: 12px;
+    cursor: pointer;
+}
